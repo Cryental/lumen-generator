@@ -7,6 +7,7 @@ use Illuminate\Support\ProcessUtils;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Process\PhpExecutableFinder;
 use Illuminate\Support\Env;
+use Symfony\Component\Process\Process;
 
 class ServeCommand extends Command
 {
